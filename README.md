@@ -1,16 +1,14 @@
-# 104人力銀行新鮮人職缺之薪資預測模型
-- 程式碼（ipynb及html檔）皆位於sldl_salary_pred/src裡各個資料夾中
-- 資料壓縮檔的雲端連結：https://drive.google.com/file/d/1djsTjze1xV58rpmLcZMyas7mvSXv-IPn/view?usp=sharing
+# Salary Prediction Model 
 
-## Data 
-104人力銀行—新鮮人專區（[link](https://www.104.com.tw/jobs/search/?jobsource=freshman_search&jobexp=1)）
+## Project Overview
+This project aims to predict job salaries in Taiwan using machine learning techniques. The dataset was obtained through web scraping from Taiwan's largest job search website,[104 Job Search](https://www.104.com.tw). Various models were implemented, including Random Forest, Gradient Boosting, and K-Nearest Neighbors, to optimize prediction accuracy.
 
-### Size
-- Raw data ([download file](https://drive.google.com/file/d/1djsTjze1xV58rpmLcZMyas7mvSXv-IPn/view?usp=sharing)): 197197 jobs
-- Test data (./data/test/3000raw.json): 3003 jobs
+## Dataset
+- **Source:** Web scraped job listings from 104 job search website
+- **Features:** Job title, company, location, industry, required experience, education level, and salary range
+- **Target Variable:** Salary
 
-## Link
-- [slides](https://docs.google.com/presentation/d/1Y7SDIhAuZn7-IqQYJHyl4-24D9LO76gn--flBMPvK0s/edit#slide=id.g1344feb830c_0_0)
-- [doc](https://docs.google.com/document/d/1AfmChshYJz8km2qE6p33LjvXP91sVg5Fbjsy120Hi6o/edit)
-
-
+## Technologies Used
+- **Programming Languages:** Python
+- **Libraries & Frameworks:** pandas, NumPy, scikit-learn, BeautifulSoup, Selenium, XGBoost
+- **Tools:** Jupyter Notebook, Git, Excel
