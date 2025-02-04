@@ -12,3 +12,19 @@ This project aims to predict job salaries in Taiwan using machine learning techn
 - **Programming Languages:** Python
 - **Libraries & Frameworks:** pandas, NumPy, scikit-learn, BeautifulSoup
 - **Tools:** Jupyter Notebook, Git, Excel
+
+## Methodology
+1. **Data Collection:**
+   - Used BeautifulSoup to extract job listings
+   - Cleaned and preprocessed raw data
+   - Feature engineering to improve predictive power
+
+2. **Exploratory Data Analysis (EDA):**
+   - Visualized salary distributions
+   - Identified feature correlations
+   - Handled missing values and outliers
+
+3. **Model Training & Evaluation:**
+   - Applied multiple machine learning models: Random Forest, Gradient Boosting, KNN, Linear Regression, Lasso, Ridge, SGD, 
+   - Hyperparameter tuning 
+   - Evaluated performance using Mean Absolute Error (MAE) and R Mean Squared Error (RMSE)
