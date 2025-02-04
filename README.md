@@ -10,5 +10,5 @@ This project aims to predict job salaries in Taiwan using machine learning techn
 
 ## Technologies Used
 - **Programming Languages:** Python
-- **Libraries & Frameworks:** pandas, NumPy, scikit-learn, BeautifulSoup, Selenium, XGBoost
+- **Libraries & Frameworks:** pandas, NumPy, scikit-learn, BeautifulSoup
 - **Tools:** Jupyter Notebook, Git, Excel
